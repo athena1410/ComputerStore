@@ -1,0 +1,4 @@
+Front-end/computer-store/node_modules/
+*.vs
+*bin/*
+*obj/*

@@ -1,0 +1,75 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ComputerStore.Structure/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.KeyDerivation": "3.1.4",
+          "StyleCop": "6.1.0"
+        },
+        "runtime": {
+          "ComputerStore.Structure.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.Internal/3.1.4": {
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll": {
+            "assemblyVersion": "3.1.4.0",
+            "fileVersion": "3.100.420.21604"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Cryptography.Internal": "3.1.4"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll": {
+            "assemblyVersion": "3.1.4.0",
+            "fileVersion": "3.100.420.21604"
+          }
+        }
+      },
+      "StyleCop/6.1.0": {
+        "runtime": {
+          "lib/net40/StyleCop.dll": {
+            "assemblyVersion": "6.1.0.0",
+            "fileVersion": "6.1.7038.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ComputerStore.Structure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.AspNetCore.Cryptography.Internal/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P6o80rVMEDv7zQQmIDoeoXHAXfS+bj2iwh5iURfd1EKrojxqVJW3zTYld2nleryT7BBlL7J0aT54tyLZyj8YRg==",
+      "path": "microsoft.aspnetcore.cryptography.internal/3.1.4",
+      "hashPath": "microsoft.aspnetcore.cryptography.internal.3.1.4.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Cryptography.KeyDerivation/3.1.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z5HVARsR7LIGmXVnFlOlw+VCk5TN1y4T/HyiVdenyWGkKAmW5GOVQokfCqd4Y++dMkGQwcRa62KpjwIUwecgZg==",
+      "path": "microsoft.aspnetcore.cryptography.keyderivation/3.1.4",
+      "hashPath": "microsoft.aspnetcore.cryptography.keyderivation.3.1.4.nupkg.sha512"
+    },
+    "StyleCop/6.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TnF8o1R5ZRkFO1TO9ugtccEfrKoH5hRSFZXxSbZzRU27HQqwo7JLLgTXnpbvl44UyC9Jt8fPoLPnU5l6GsIhzg==",
+      "path": "stylecop/6.1.0",
+      "hashPath": "stylecop.6.1.0.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.4" />
+    <PackageReference Include="StyleCop" Version="6.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ComputerStore.BoundedContext\ComputerStore.BoundedContext.csproj" />
+    <ProjectReference Include="..\ComputerStore.Structure\ComputerStore.Structure.csproj" />
+  </ItemGroup>
+
+</Project>
